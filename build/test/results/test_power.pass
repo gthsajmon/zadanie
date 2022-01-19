@@ -1,0 +1,42 @@
+---
+:source:
+  :path: test/math
+  :file: test_power.c
+:successes:
+- :test: test_pow_rtosNormalVector
+  :line: 23
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pow_rtosIntegerExponentVector
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pow_rtosZeroBaseExponentVector
+  :line: 66
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pow_rtosZeroExponentVector
+  :line: 72
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pow_rtosZeroBaseVector
+  :line: 78
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pow_rtosZeroBaseNegExponent
+  :line: 84
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pow_rtosNegBaseVector
+  :line: 91
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.004827856995689217
